@@ -1,0 +1,17 @@
+{
+    "name": "SaveSystem.Async",
+    "rootNamespace": "SaveSystem.Async",
+    "references": [
+        "SaveSystem",
+        "UniTask"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
