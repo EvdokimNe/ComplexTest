@@ -6,6 +6,15 @@ using UnityEngine;
 using Debug = UnityEngine.Debug;
 namespace UIPerformanceAndRefactoring
 { /*
+
+In one of our scenes, the UI shows live information about active gameplay entities. A junior
+developer wrote the following code that:
+● produces incorrect results;
+●
+causes performance issues;
+● updates far too often.
+
+
  * public class CharactersView : MonoBehaviour
 {
 [SerializedField] private List<Transform> _characters;
@@ -27,6 +36,16 @@ gameObject.GetComponent<Text>().text = text;
 Debug.Log(text);
 }
 }
+
+Your Goals
+● Fix bugs and logical errors;
+●
+improve code quality and structure;
+● optimize performance in practical and theoretical ways;
+●
+limit UI updates to once every X frames or a fixed interval;
+● briefly explain why you made your changes.
+You may rewrite the code entirely.
  */
     
     public class CharactersView : MonoBehaviour
