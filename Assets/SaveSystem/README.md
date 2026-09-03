@@ -39,3 +39,24 @@ Editor-инструменты:
 - структурированные события с `SaveId`, размером файла и выбранным storage;
 - замеры времени сериализации, чтения и записи;
 
+---
+#
+2. Save / Load Utility (Production Basics) Many of
+   our projects require persistent data:
+   ● player progress;
+   ●
+   settings;
+   ● VN state;
+   ● gameplay flags.
+   Task
+   Implement a generic save/load utility that:
+   ●
+   saves any serializable class to file;
+   ●
+   loads it back safely;
+   ● handles missing or invalid data gracefully.
+   Notes
+   ● You may use JSON serialization;
+   ●
+   focus on clean API and robustness;
+   ● assume this utility will be reused across multiple projects.

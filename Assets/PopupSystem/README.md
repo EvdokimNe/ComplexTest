@@ -54,3 +54,26 @@ await _popups.ShowAsync(PopupType.ConfirmVertical,   data);   // те же да�
 * Система попапов должна идти через ScreenManager в целом + интеграция в проект через регисрацию
 
 В системе попапов, конечно, лучше понимать менее абстрактно, какая логика работы системы ожидается.
+
+---
+#
+
+3. Popup / UI System (UI + Architecture) Our games
+   use popups for:
+   ●
+   confirmations;
+   ●
+   story choices;
+   ● warnings;
+   ●
+   tutorials.
+   Task
+   Design a simple popup system that supports:
+   ●
+   loading a popup;
+   ●
+   setting the title text and body text;
+   ● displaying between 1-5 buttons;
+   ● assigning callbacks to buttons.
+   3.1 Unity Components Question
+   Which Unity components would you use to build the popup prefab, and why?
