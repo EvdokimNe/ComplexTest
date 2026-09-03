@@ -1,9 +1,7 @@
-using GameplayStateLogic;
-
-namespace GameplayStateLogicExample
+namespace GameplayStateLogic.Example
 {
     /// <summary>Минимальная конкретная сущность для демонстрации.</summary>
-    public class Enemy : GameplayEntity
+    public sealed class Enemy : GameplayEntity
     {
     }
 }
