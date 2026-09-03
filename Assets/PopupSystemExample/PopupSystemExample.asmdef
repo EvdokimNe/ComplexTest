@@ -1,0 +1,17 @@
+{
+    "name": "PopupSystem.Example",
+    "rootNamespace": "PopupSystem.Example",
+    "references": [
+        "PopupSystem",
+        "UniTask"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
